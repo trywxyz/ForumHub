@@ -21,6 +21,7 @@ Bem-vindo à API do FórumHub, uma aplicação de fórum para a gestão de tópi
 ## Configuração do Projeto
 
 
+
 ## Endpoints
 
 ### 1. **Login de Usuário**
