@@ -1,0 +1,9 @@
+CREATE TABLE topics (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    message TEXT NOT NULL,
+    creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    status ENUM('OPEN', 'CLOSED') DEFAULT 'OPEN',
+    author_name VARCHAR(255),
+    course_name VARCHAR(255)
+);
